@@ -1,6 +1,6 @@
 const {translateToSQL}=require('../Utility/queryTranslator.js')
 const {executeQuery}=require('../database/inMemoryDb.js')
-import { ErrorHandler, tryCatcher } from '../Utility/errorHandler.js';
+const { ErrorHandler, tryCatcher }=require('../Utility/errorHandler.js');
 
 
 // Process natural language query

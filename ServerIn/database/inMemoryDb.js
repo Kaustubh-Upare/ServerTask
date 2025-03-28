@@ -37,7 +37,7 @@ const database = {
   };
   
   // Simple query execution function
-  export const executeQuery = (sqlQuery) => {
+const executeQuery = (sqlQuery) => {
     console.log(`Executing query: ${sqlQuery}`);
     
     // Very basic SQL parsing - in a real system this would use a proper SQL parser
@@ -171,3 +171,4 @@ const database = {
     return data;
   }
   
+module.export={executeQuery}
