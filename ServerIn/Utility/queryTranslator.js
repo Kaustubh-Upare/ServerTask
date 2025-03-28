@@ -1,5 +1,5 @@
 // Simple natural language to SQL translator
-const translateToSQL = (query) => {
+const translateToSQL=(query)=>{
     const lowerQuery = query.toLowerCase();
     let sqlQuery = '';
     
@@ -67,4 +67,4 @@ const translateToSQL = (query) => {
     return sqlQuery;
   };
   
-module.export={translateToSQL}
+module.exports={ translateToSQL }

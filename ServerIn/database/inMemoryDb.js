@@ -171,4 +171,4 @@ const executeQuery = (sqlQuery) => {
     return data;
   }
   
-module.export={executeQuery}
+module.exports={executeQuery}
